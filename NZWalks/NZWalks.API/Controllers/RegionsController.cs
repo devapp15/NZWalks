@@ -23,7 +23,8 @@ namespace NZWalks.API.Controllers
         {
             var regions = await _regionRepository.GetAllAsync();
 
-            // return DTO regions
+            //** return DTO regions
+
             //var regionsDTO = new List<Models.Dto.Region>();
             //regions.ToList().ForEach(region =>
             //{
